@@ -1,0 +1,45 @@
+/*yorum*/
+.kirmizi {
+  color: #ff0000;
+}
+
+/*body{ background-color: #d8d3cd;}*/
+.arkaplan-rengi {
+  background-color: #d8d3cd;
+}
+
+.kutu {
+  width: auto;
+  height: 150px;
+  background-color: #ffd5cd;
+  color: #59405c;
+  /*margin-left: 50px;
+margin-top: 50px;
+margin-right: 50px;
+margin-bottom: 50px;*/
+  margin: 20px 10% 0px 10%;
+  /*padding-left: 40px;
+padding-top: 20px;
+padding-right: 40px;
+padding-bottom: 20px;*/
+  padding: 30px 20px;
+}
+img{
+  width: 150px;
+  height: 150px;
+}
+.kutu-bir {
+  width: auto;
+  height: 150px;
+  background-color: #efbbcf;
+  color: #59405c;
+  margin: 0 10% 0 10%;
+  padding: 30px 20px;
+}
+
+.deniz {
+  margin-left: 15px;
+}
+.manzara {
+  margin-right: 15px;
+}

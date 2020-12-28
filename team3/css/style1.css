@@ -1,0 +1,216 @@
+.renk{
+
+  color: #FF6F61;
+}
+
+.arka-plan{
+  background-color: black;
+}
+
+@media (max-width: 768px){
+
+  .orta{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+padding-top: 5px;
+  }
+}
+
+@media(min-width: 767px){
+
+ .orta{
+    padding: 0;
+  }
+}
+
+@media(min-width:767px){
+  .sag{
+    text-align: right;
+  }
+}
+
+
+.arka-plan1{
+  background-color: #FF6F61;
+
+
+}
+.sag-taraf{
+  padding-left: 500px;
+
+}
+
+
+
+.arama{
+  width: 90%;
+  border:0;
+  height: 100%;
+
+
+}
+
+@media(max-width:768px)
+
+{
+  .arama{
+    padding-left: 3px;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+@media(min-width:767px){
+
+  .arama{
+padding-right: 2px;
+  }
+}
+
+
+.etraf{
+  border: 1px solid;
+  border-color: #FF6F61;
+  background-color: white
+
+}
+.user{
+  padding-left: 225px;
+}
+.user .btn {
+
+  color: #FF6F61;
+  border-color: #FF6F61;
+}
+
+.user .btn:hover {
+  background-color: #FF6F61;
+  color: #f8f9fa;
+}
+
+.bg-beyaz{
+  background-color:#f3f6ff ;
+
+}
+
+
+@media(max-width:768px){
+
+  .liste1{
+    margin-right: 3px;
+    margin-left: 2px;
+  }
+}
+
+@media(min-width:767px){
+  .liste1{
+    margin-right:2px;
+margin-left: 2px;
+   }
+}
+
+.rengim{
+color: #FF6F61;
+}
+
+.list-group-item{
+  color: black;
+}
+
+.liste1 i{
+  color:  #FF6F61;
+}
+
+.liste1 i:hover{
+  color:black;
+}
+.list-group a:hover{
+  color: #FF6F61;
+}
+.img img{
+  height: 390px;
+  width: 380px;
+  margin-left: 15px;
+}
+
+.kutu{
+
+  background-color: white;
+  font-weight: 2px;
+
+  height: 40px;
+  width: 155px;
+border-radius: 5px;
+display: inline-block;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+}
+.color{
+  color: #FF6F61;
+  font-size: 1rem;
+}
+.pad{
+  margin-bottom: 40px;
+}
+.ücbölüm img{
+  height: 200px;
+  width: 300px;
+margin-left: 25px;
+
+}
+
+@media (max-width:768px){
+.ücbölüm img {
+  height: 200%;
+  width:200%;
+
+}
+@media(min-width:767px){
+  .ücbölüm img {
+    height: 200px;
+    width: 300px;
+    margin-left: 25px;
+
+  }
+}
+}
+.ücbölüm{
+
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      height: 100%;
+
+      max-height: 380px;
+      overflow: hidden;
+
+}
+
+.container-fluid span img{
+  height: 100px;
+  width: 100px;
+margin: 10px 50px 10px 50px;
+}
+
+.kutu1{
+  color: #FF6F61;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+height: 200px;
+border: 1px solid;
+
+}
+
+
+.padding{
+  width:75%;
+padding: 20px 50px;
+margin: 10px;
+}

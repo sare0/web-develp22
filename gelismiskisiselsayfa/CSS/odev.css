@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  border-left: 10px solid #f47c7c;
+  padding-left: 10px;
+  background-color: #ffffff80;
+  font-family: 'Grandstander', cursive;
+  text-align: left;
+}
+
+.Linkler a {
+  display: inline-block;
+  font-size: 1.2rem;color: #f7f48b;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 3px solid;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 2px solid;
+  text-decoration: none;
+}
+
+.Linkler {
+  height: 75px;
+  display: flex;
+  float: right;
+  display: flex;
+  align-items: center;
+  width: 40%;
+
+}
+
+.Linkler a:hover {
+  color: black;
+  background-color: #794c74;
+}
+
+.logo {
+  display: inline-block;
+  color: #794c74;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 75px;
+  border: 3px dashed;
+  font-family: 'Marck Script', cursive;
+}
+
+.container-fluid {
+  background-color: #f47c7c;
+  padding: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+  position: sticky;
+  top: 0;
+
+/* bu element top 0 ı görünce oraya yapış*/
+}
+
+
+.sol-sağ-padding {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.arka-plan-rengi {
+  background-color: green;
+}
+
+.container {
+  background-color: #f7f48b;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profil-resmi {
+  border-radius: 0 40px 40px 0;
+  border: 2px dashed;
+  width: 150px;
+  height: 150px;
+}
+
+.hakkimda {
+  border: solid #f47c7c;
+  border-radius: 20px;
+  padding: 2%;
+  background-color: #cffffe;
+
+
+}
+
+.hakkimda-yazi {
+  padding-left: 2rem;
+}
+
+.hobilerim {
+  border-radius: 20px;
+  border: 3px dashed #f47c7c;
+  padding: 2%;
+  background-color: #f9f7d9;
+}
+
+.hobilerim-yazi {
+  padding-right: 2rem;
+}
+
+.hobi-resmi {
+  border-radius: 40px 0 0 40px;
+  border: 3px dashed;
+  width: 150px;
+  height: 150px;
+}
+
+.bildigim-diller {
+  border-radius: 20px;
+  border: 2px dashed #f47c7c;
+  padding: 2%;
+  background-color: #fce2ce;
+}
+
+.bildigim-diller-yazi {
+  padding-left: 2rem;
+}
+
+.bildigim-diller-resmi {
+  border-radius: 0 40px 40px 0;
+  border: 3px dashed;
+  width: 150px;
+  height: 150px;
+}
+
+/* en alt kısım*/
+
+.container-alt{
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.footer-arkaplan{
+  background-color: #232F3E;
+}
+
+
+
+.menu{
+  width: 25%;
+  padding-left: 15px;
+
+}
+
+.baslik{
+  color:#ffffff;
+  font-weight: 700;
+}
+
+.menu ul{
+  padding: 0;
+}
+.menu ul li {
+  list-style-type: none;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+
+
+/* .menu a deseydikten olurdu */
+
+.alt-link{
+  text-decoration:
+  color:#dddddd;
+}
+
+.alt-link:hover{
+  text-decoration: underline;
+}
+/* .ustegeridon:hover{
+  background-color: #384759;
+} böyle de yapabiliriz..*/
+
+.alt-link:hover .ustegeridon{
+  background-color: #384759;
+}
+
+.menu ul li a {
+  color:#dddddd;
+  text-decoration: none;
+}
+
+.menu ul li a:hover{
+  text-decoration: underline;
+}
+
+.ustegeridon{
+  background-color: #485769;
+  padding: 10px;
+  color:#dddddd;
+  text-align: center;
+}
+
+.sabit{
+  position: fixed;
+  right: 10px;
+  bottom:10px;
+}

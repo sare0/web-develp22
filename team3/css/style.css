@@ -1,0 +1,65 @@
+.no{
+text-align: right;
+  color: #FF6F61;
+
+}
+.mail{
+  color:#FF6F61;
+
+}
+.arka-plan{
+  background-color: black;
+}
+.fas{
+  color:#FF6F61;
+}
+.üst2{
+  background-color:#FF6F61;
+
+}
+
+
+
+.btn-border{
+  border: 2px solid;
+  float: right;
+margin: 15px 10px 15px 10px;
+
+}
+.sag-taraf{
+  text-align: right;
+  padding-left: 500px;
+}
+
+.col-sm-12{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  padding: 15px;
+  float: left;
+}
+.form-inline{
+  border: 1px solid;
+  border-radius: 0;
+border: 0;
+}
+
+.form-control{
+  border-radius: 0;
+border: 0;
+}
+
+.yeni{
+  border: 1px solid;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.sag{
+  float:right;
+
+}

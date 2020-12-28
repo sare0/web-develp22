@@ -1,0 +1,134 @@
+.title{
+  font-size: 1.5rem;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.dolar{
+
+  margin-bottom: 20px;
+
+
+}
+.fiyat{
+  display:flex; align-items: center;
+  justify-content: center;
+font-size: 2.5rem;
+color: white;
+padding: 10px;
+}
+
+.bilgiler{
+color: white;
+font-size: 1.2rem;
+text-align: center;
+}
+
+.ortalama{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.link{
+
+  margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    padding: 10px 0;
+    background: #ffffff;
+    color: #444;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+
+.ortak {
+  border-radius: 25px;
+  padding: 10px;
+  margin: 15px;
+  float: left;
+  box-sizing: border-box;
+
+}
+
+
+
+.icon1 {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(135deg, #5FB4FE 0%, #F439DA 100%);
+font-size: 3.2rem;
+color: white;
+display: flex;
+align-items: center;
+  justify-content: center;
+  margin:0 auto;
+}
+
+.icon2 {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(135deg, #FC20DA 0%, #FAEB7F 100%);
+  font-size: 3.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icon3 {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(135deg, #9455F6 0%, #3EFB85 100%);
+  font-size: 3.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+
+.kutu1 {
+  background: linear-gradient(135deg, #5FB4FE 0%, #F439DA 100%);
+  height: 400px;
+  width: 275px;
+  margin-top: 30px;
+}
+
+.kutu2 {
+  height: 440px;
+  width: 275px;
+  background: linear-gradient(135deg, #FC20DA 0%, #FAEB7F 100%);
+}
+
+.kutu3 {
+  margin-top: 30px;
+  height: 400px;
+  width: 275px;
+  background: linear-gradient(135deg, #9455F6 0%, #3EFB85 100%);
+}
+
+/*
+pixlr.com dan bulduk resmın url girdik..
+kutu1 başlangıç : #5FB4FE
+    bitiş : #F439DA
+
+    kutu2 başlangıç : #FC20DA
+     bitiş : #FAEB7F
+
+kutu3
+     başlangıç : ##9455F6
+     bitiş : #3EFB85
+  */

@@ -1,0 +1,197 @@
+
+.renk{
+  background-color: #2C3E50;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+}
+.renk a:hover{
+  color:#1ABC9C;
+  text-decoration: none;
+}
+.renk a{
+  color: white;
+}
+.bosluk{
+  word-spacing: 15px;
+}
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+.renk1{
+  background-color: #1ABC9C;
+}
+.padding{
+  padding-top: 70px;
+}
+.avatar{
+  width: 130px;
+}
+.yazi{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: white;
+}
+.slayt a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 93%;
+  opacity: 0;
+  text-decoration: none;
+
+}
+
+
+.slayt a:hover {
+  background-color: rgba(26, 188, 156, .8);
+  color: white;
+  border-radius: 0.5rem;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+
+}
+​
+
+.y-renk{ color: white;}
+.yildiz{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+color: white;
+}
+.yildiz::after{
+  content: "";
+  background-color: white;
+  width: 5%;
+  height: 4px;
+  position: relative;
+  margin-left: 10px;
+}
+.yildiz::before{
+  content: "";
+  background-color: white;
+  width: 5%;
+  height: 4px;
+  position: relative;
+  margin-right: 10px;
+}
+.yazi1{
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+/* orta bölüm başlangıc*/
+.bas{
+  font-family:'Montserrat',sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+
+}
+.yildiz2{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2C3E50;
+}
+.yildiz2::after{
+  content: "";
+  background-color:#2C3E50;
+  width: 5%;
+  height: 2px;
+  position: relative;
+  margin-left: 10px;
+}
+.yildiz2::before{
+  content: "";
+  background-color:#2C3E50;
+  width: 5%;
+  height: 2px;
+  position: relative;
+  margin-right: 10px;
+}
+.row{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.orta img{
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+margin:5px;
+
+}
+
+.btn{
+  border: 1px solid white;
+  color: white;
+  font-size: 1rem;
+}
+
+.btn-outline{
+  color:white;
+  font-size: 1rem;
+  padding: 15px 25px 15px 25px;
+}
+a:hover .btn-outline {
+  background-color: white;
+  color:black;
+}
+.form-control{
+  border:0;
+}
+.alan{
+  padding-bottom: 55px;
+
+}
+
+hr{
+  width: 37%;
+}
+.renkli{
+  background-color: #1ABC9C;
+  color: white;
+}
+.yazim{
+  background-color: #2C3E50;
+  color: white;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+.cevre{
+  border: 1px solid white;
+  height: 30px;
+  width: 30px;
+  margin: 1px;
+  padding: 6px;
+  border-radius:30px;
+  color: white;
+}
+.kucuk{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+  font-size:1rem;
+}
+.bass{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.kucuk a{
+  color:#1ABC9C;
+}
+.icons a:hover .cevre{
+color: #1A252F;
+background-color: white;
+}
+.son{
+  background-color: #1A252F;
+  color: white;
+  font-size: 0.75rem;
+}

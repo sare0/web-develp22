@@ -1,0 +1,162 @@
+.bg{background-color: #bd5d38 !important;}
+.yazi-tipi{
+  font-family:"Mulish",sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.yazi{
+  font-family: "Saira",sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+
+}
+.nav-item a:hover{color:white !important;
+text-decoration: none;}
+.profil{
+  width: 167px;
+  border: 9px solid #CA7D60;
+  border-radius: 150px;
+  margin-top:175px;
+}
+
+.list-group-flush .list-group-item {
+  border-width: 0;
+  font-family: "Saira",sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color:#CC9A96;
+  background-color:  #bd5d38;
+}
+
+.renk{color: #CC9A96 !important;}
+.list-group a:hover{
+  text-decoration: none;
+  color: white !important;
+}
+.container{
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 55%;
+  height: 100vh;
+}
+@media(min-width:767px){
+  .navbar{
+  visibility: hidden;
+  }
+}
+@media(max-width:768px){
+  .row{
+    visibility: hidden;
+  }
+
+}
+/*   MENÜ BİTTİ */
+
+.container-fluid{
+  padding-left: 23%;
+  padding-top: 8%;
+}
+
+.baslik1{
+  font-family: "Saira Extra Condensed",sans-serif;
+  font-weight: 700;
+  font-size: 5.5rem;
+
+}
+.baslik{
+  font-family: "Saira Extra Condensed",sans-serif;
+  font-weight: 700;
+  font-size: 5.5rem;
+  color: #bd5d38;
+}
+@media(max-width:768px){
+  .container-fluid{
+    padding-left: 2%;
+    padding-top: 10%;
+  }
+}
+.kucuk-yazi{
+  font-family: "Saira Extra Condensed",sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color:  #6c757d;
+}
+.mail{
+  color:  #bd5d38;
+}
+.container-fluid .kucuk-yazi a:hover{
+  color: #CA7D60;
+}
+.kucuk-yazi1{
+  font-family: "Mulish",sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color:  #6c757d;
+}
+.icon{
+background-color: #495057;
+color:white;
+z-index: 1;
+width: 15%;
+height: 10% !important;
+border-radius: 50% ;
+padding: 5%;
+
+}
+.bosluk {
+position: relative;
+padding-top:35px;
+float: left;
+z-index:1;
+}
+
+.bosluk a:hover{
+  position: relative;
+  background-color:#CA7D60;
+  color:white;
+  z-index: 3;
+}
+.yazim{
+  font-family: "Saira Extra Condensed",sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.senior{
+  font-family: "Saira Extra Condensed",sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.yazim2{
+  font-family: "Mulish",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color:  #6c757d;
+}
+.tarih{
+  float: right;
+  padding-right: 10%;
+  font-family: "Mulish",sans-serif;
+  color:#bd5d38;
+  font-weight: 500;
+}
+hr{
+  margin-top: 25%;
+  margin-bottom: 3%;
+}
+
+.pad{
+  padding-top: 10%;
+}
+.cupa{
+  color:#ffc107;
+}
+.alt{
+  padding-bottom: 20%;
+  padding-top: 18%;
+}
+.icon-renk{
+  color:  #6c757d;
+  padding-top: 15px;
+  padding-bottom:  15px;
+}

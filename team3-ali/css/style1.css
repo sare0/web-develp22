@@ -1,0 +1,92 @@
+body {
+  background-color: #FAD961;
+  background-image: url("C:/Users/sahra/OneDrive/Masaüstü/web develp22/team3-ali/css/image/speaker.png");
+  background-position: bottom -12px right 0;
+  background-size: 57% 65%;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.30rem;
+}
+
+.dropdown {
+  display: inline-block;
+  background-color: #FAD961;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: #FAD961;
+}
+
+.resim {
+  height: 35px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.link {
+  display: inline-block;
+  float: right;
+}
+
+/*  Header bölümü bitti */
+/* başlık bölümü */
+.yazi {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+}
+.alan{
+  border: 2px solid black;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+border-right: 0;
+}
+.alan1{
+  border: 2px solid black;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-left: 1px solid #1B1B1B90;
+
+}
+/*başlık bitti*/
+/*orta bolum*/
+.card {
+  background-color: #FAD961;
+  border: 0px;
+}
+.font{
+font-weight: 300;
+font-family: 'Poppins',sans-serif;
+
+}
+.yanyana {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 60px;
+
+}
+
+.yan-taraf {
+  padding-left: 250px;
+}
+.pozisyon{
+  font-size: 13px;
+}
+.text{
+  color: #1B1B1B;
+}
+.contact a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.text1{
+  color:#fff;
+}

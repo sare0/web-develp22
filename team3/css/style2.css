@@ -1,0 +1,117 @@
+body {
+  color: #353535;
+  font-weight: 400;
+  background: #f3f6ff;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: -25px;
+}
+​
+/*a link and Hovers*/
+a {
+  color: #FF6F61;
+}
+​
+a:hover,
+a:active,
+a:focus {
+  color: #353535;
+  outline: none;
+  text-decoration: none;
+}
+​
+/*Top-bar Css Codes*/
+.top-bar {
+  color: #FF6F61;
+  background-color: #000000;
+  margin: 0;
+}
+​
+.contact {
+  font-family: 'Open Sans', sans-serif;
+}
+​
+/*Menu Css Codes*/
+.menu {
+  background-color: #FF6F61;
+}
+​
+.menu .navbar {
+  padding: 0;
+}
+​
+.menu .container-fluid .navbar-dark .nav-link {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+​
+.nav .dropdown-menu a.active {
+  color: #353535;
+  background: #f8f9fa;
+}
+​
+.menu .container-fluid .navbar-dark a.nav-link:hover,
+.menu .container-fluid .navbar-dark a.nav-link.active {
+  color: #000000;
+}
+​
+/*Search=bar Css Codes*/
+.search-bar .container-fluid .row .form-control {
+  border-color: #FF6F61;
+  position: relative;
+  color: #FF6F61;
+}
+​
+.row .form-inline .btn {
+  position: absolute;
+  color: #FF6F61;
+  left: 92%;
+  width: 5%
+}
+​
+.row .btn:hover {
+  background-color: #FF6F61;
+  color: #f8f9fa;
+}
+​
+.row .user .btn {
+  color: #FF6F61;
+  border-color: #FF6F61;
+}
+​
+.row .user .btn:hover {
+  background-color: #FF6F61;
+  color: #f8f9fa;
+}
+​
+/*Main Slider Css Codes*/
+.main-slider .navbar a {
+  color: #353535;
+}
+​
+.main-slider .navbar a:hover {
+  color: #FF6F61;
+}
+​
+.main-slider .navbar i {
+  color: #FF6F61;
+  width: 20px;
+  text-align: center;
+  margin-right: 8px;
+}
+​
+.main-slider .navbar a:hover i {
+  color: #353535;
+}
+.main-slider .carousel-control-prev:hover,
+.main-slider .carousel-control-next:hover{
+  z-index: 1;
+  background-color: #FF6F61;
+  color: #f8f9fa;
+​
+}
+​
+/* padding fo all the page*/
+.p-l-r {
+  padding: 0 5%;
+}

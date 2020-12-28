@@ -1,0 +1,39 @@
+:root{
+  --ana-renk:orange;
+  --border-size:0.5rem;
+}
+
+
+
+
+body{
+  background-color: #F1FAEE;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+  url(https://i.pinimg.com/originals/5c/57/a8/5c57a8967bbd906f6a047e4c01adcc2a.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.navbar-brand{
+  color: var(--ana-renk) !important;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.populer-baslik{
+  background-color: var(--ana-renk);
+  color: white;
+}
+.ekonomi{
+  border-left: 7px var(--ana-renk) solid;
+  padding:0.8rem;
+  font-size: 1.2rem;
+
+}
+.card{
+  border-radius: var(--border-size);
+}
+
+.card-img-top{
+  border-top-left-radius: var(--border-size);
+  border-top-right-radius: var(--border-size);
+}

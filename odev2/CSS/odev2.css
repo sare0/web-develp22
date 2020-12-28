@@ -1,0 +1,52 @@
+.Hepsi {
+  background-color: #fce38a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container {
+  width: 560px;
+  box-sizing: border-box;
+}
+
+.Baslık {
+  font-size: 2.5rem;
+  background-color: #f38181;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  color: white;
+}
+
+.Alt-baslık {
+  background-color: #393e46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 0 0 30px 30px;
+  padding: 10px;
+}
+
+.kutular {
+  width: 540px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+}
+
+.resim {
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+  float: left;
+  border-radius: 30px;
+  margin: 10px;
+}

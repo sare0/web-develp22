@@ -1,0 +1,90 @@
+body {
+  background-color: #F1E8E6;
+}
+
+.yazi {
+  font-size: 0.75rem;
+  font-family: Mulish;
+}
+
+.renk {
+  color: #32e0c4;
+}
+
+.yazi1 {
+  font-size: 1rem;
+}
+
+.buton {
+  background-color: #120078;
+  color: white;
+  font-size: 1rem;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.btn-hover:hover {
+  background-color: #F55951;
+  box-shadow:5px 2px 10px  #F55951 ;
+}
+
+.duzen {
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-right: 75%;
+  padding: 30px 10px;
+  font-weight: bolder;
+  font-size: 0.80rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 18px  #F55951;
+}
+
+.hizala {
+  padding: 20px;
+}
+
+.kutu {
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-right: 80%;
+  padding: 25px;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  box-shadow:5px 5px 18px  #F55951;
+}
+
+
+.bg-kutu {
+  background-color: #F55951;
+  margin-right: 78%;
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Mulish;
+  font-size: 2rem;
+  box-shadow: 3px 6px 10px  #F5595180;
+}
+
+.cerceve {
+  border-radius: 25px;
+  border-color: #cdc9c3;
+  color: black;
+  background-color: #F1E8E6;
+  font-family: Mulish;
+}
+
+.cevresi {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 3px;
+}
+
+.form-control {
+  border: 0px;
+  padding: 0;
+}

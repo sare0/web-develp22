@@ -1,0 +1,233 @@
+body{
+  background-color:#160C6E;
+
+}
+.container-fluid{
+  position: relative;
+  z-index: 0;
+}
+.r-l-padding{
+
+  padding-left: 3%;
+  padding-right: 7%;
+
+}
+.logo{
+  width: 60px;
+  height: 50px;
+  margin-left: 10%;
+  margin-top: 35px;
+}
+.renk{
+  color: white;
+}
+span.hover a:hover{
+  color:white;
+}
+/* üst bitiş */
+.buyuk-daire{
+width:800px;
+height:780px;
+background-color: #3f21d0;
+position: fixed;
+z-index: 1;
+left: 23%;
+top: -20px;
+border-radius: 75%;
+}
+.kucuk-daire{
+background: linear-gradient(321.5deg, #df387c 33.39%, #ff602c 103.69%);
+position: absolute;
+z-index: 2;
+width: 62%;
+height: 62%;
+border-radius: 65%;
+margin :19%;
+
+}
+.resim{
+  position: absolute;
+  z-index: 3;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.kendi{
+  width: 120%;
+  height:90%;
+}
+@media(max-width:767px){
+  .r-l-padding{
+    padding-left: 10px;
+    padding-right: 11px;
+  }
+
+  .buyuk-daire{
+    width: 100%;
+    height: 66%;
+    top: 10%;
+    left: 0;
+  }
+
+}
+
+/* orta bölüm başlangıc*/
+
+.ebat{
+  width: 10%;
+  margin-top: 15%;
+  margin-left: 10%;
+  display:inline-block;
+
+}
+span.ebat a:hover{
+background:linear-gradient(321.5deg, #df387c 33.39%, #ff602c 103.69%);
+  text-decoration: none;
+}
+span.ebat a{
+  color: white;
+}
+.baslikk{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+.list-group-item{
+  background-color: #160C6E;
+  border:0;
+color: white;
+}
+.diger{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+
+}
+
+
+.baslik1{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+}
+.alt-yazi{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+}
+.sag{
+padding-left: 35%;
+padding-top: 13%;
+position: absolute;
+z-index: 4;
+color: white;
+}
+.renk1{
+  color: white;
+  border:2px solid #160C6E;
+  float: right;
+  background: linear-gradient(321.5deg, #df387c 33.39%, #ff602c 103.69%);
+font-family: 'Montserrat',sans-serif;
+font-size: 14px;
+font-weight: 700;
+padding: 10px 20px 10px 20px;
+border-radius:25px;
+}
+span.sag a:hover{
+  color:white;
+  text-decoration: none;
+}
+.renkler{
+  font-size: 12px;
+  padding-left: 11%;
+  padding-top: 4%;
+}
+div.renkler a:hover{
+  color:white;
+}
+div.renkler a{
+  color: white;
+}
+.balon-b{
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 35px;
+  position: absolute;
+  z-index: 4;
+margin-left: 26.4%;
+margin-top: -8%;
+}
+.balon-c{
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  border-radius: 25px;
+  position: absolute;
+  z-index: 4;
+margin-left: 30%;
+margin-top: -40%;
+}
+.balon-a{
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 4;
+margin-left: 30%;
+margin-top: -25%;
+}
+.balon-a-1{
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 4;
+margin-left: 58%;
+margin-top: -4%;
+}
+.balon-a-2{
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 4;
+margin-left: 80%;
+margin-top: -4%;
+}
+.balon-a-3{
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 4;
+margin-left: 74%;
+margin-top: -37%;
+}
+.balon-d{
+  width: 12px;
+  height: 12px;
+  border: 2px solid white;
+  border-radius: 12px;
+  position: absolute;
+  z-index: 4;
+margin-left: 58%;
+margin-top: -39%;
+}
+.balon-d-1{
+  width: 12px;
+  height: 12px;
+  border: 2px solid white;
+  border-radius: 12px;
+  position: absolute;
+  z-index: 4;
+margin-left: 55%;
+margin-top: -10%;
+}
