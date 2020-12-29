@@ -8,10 +8,8 @@
 
 body{
   background-color: #F1FAEE;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
-  url(https://i.pinimg.com/originals/5c/57/a8/5c57a8967bbd906f6a047e4c01adcc2a.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+  
+
 }
 
 .navbar-brand{

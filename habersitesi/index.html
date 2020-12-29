@@ -65,7 +65,7 @@
 <button class="ml-3 bg-warning " id="tikla" onclick="renkDegisim()" type="button" name="button">Dark Mod.. </button>
   </header>
 
-  <section id="uyari" class="isik">
+  <section id="uyari">
 
     <div class="container mt-3">
       <div class="alert alert-warning shadow" role="alert">
@@ -111,7 +111,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-          <div class="ekonomi bg-white mt-3 text-center shadow-sm">
+          <div class="ekonomi mt-3 text-center shadow-sm">
             <div class="row ">
               <div class="col-lg-3 col-md-6 col-sm-6 text-center d-flex align-items-center justify-content-center"><i class="fas  fa-2x fa-caret-up text-danger"></i>
                 Dolar 7.28
@@ -308,22 +308,49 @@ Daha fazla bilgi için <a href="#"> TechproEducation</a> sayfasını ziyaret ede
 
 var saat=(new Date).getHours();
 
+
+
 if(saat >18 || saat < 5){renkDegisim();}
 
-function renkDegisim(){
-  var bodyElementi= document.querySelector(".isik");
-  var buttonElementi=document.querySelector("#tikla");
 
+function renkDegisim(){
+  var bodyElementi= document.querySelector("body");
+  var buttonElementi=document.querySelector("#tikla");
+  var cardElementi=document.querySelectorAll(".card-body");
+  var ekonomiElementi=document.querySelector(".ekonomi");
+  var alertElementi=document.querySelector("#uyari");
+
+var listElementi=document.querySelectorAll(".list-group-item");
   bodyElementi.classList.toggle("bg-dark");
   bodyElementi.classList.toggle("text-light");
   buttonElementi.classList.toggle("btn-dark");
+  ekonomiElementi.classList.toggle("bg-dark");
+  alertElementi.classList.toggle("bg-dark");
+
+for (var i=0; i<cardElementi.length; i++){
+cardElementi[i].classList.toggle("bg-dark");
+}
+
+for (var i=0; i<listElementi.length; i++){
+  listElementi[i].classList.toggle("bg-dark");
+}
+
 if( bodyElementi.classList.contains("bg-dark")){
-  buttonElementi.innertext="Light Moda Geç!";
+  buttonElementi.innerText="Light Moda Geç!";
 }else{
-      buttonElementi.innertext="Dark Moda Geç!";
+      buttonElementi.innerText="Dark Moda Geç!";
 }
 
 }
+
+
+
+
+
+
+
+
+
 
 
 

@@ -19,8 +19,10 @@
   <section  id="header" class="sticky-top bg-light">
 
 
-    <div class="container-fluid">
-
+    <div class="container-fluid menu">
+      <div class="ortalama">
+      <button class="ml-3 bg-dark text-white " id="tikla" onclick="renkDegisim()" type="button" name="button">Dark Mod.. </button>
+</div>
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Galeri</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +45,7 @@
                 <a class="dropdown-item" href="#">Kategori 2</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Alt Kategori</a>
+
               </div>
 
           </ul>
@@ -61,7 +64,7 @@
 
   </section>
 
-  <section id="resimler">
+  <section id="resimler ">
     <div class="container-fluid">
 
       <div class="row">
@@ -137,7 +140,7 @@
 
 <hr>
 
-<!----<div class="d-flex justify-content-between align-items-center">
+<!--<div class="d-flex justify-content-between align-items-center">
         <span>Bu sayfa bootstrap yardımıyla webdeveloper kursunda hazırlanmıştır.<br>
         Daha fazla bilgi için <a href="#">TechproEducation</a> sayfasını ziyaret edebilirsiniz.</span>
         <span class="float-right">Yukarı Çık</span>
@@ -155,25 +158,56 @@
 <div class="col text-right">
 <a href="#">Yukarı çık</a>
 </div>
-
-
 </div>
 
-
-
-
-
-
-
-
-
-
     </div>
-
-
-
   </section>
 
+<script type="text/javascript">
+function renkDegisim(){
+var bodyElementi=document.querySelector("body");
+  var buttonElementi=document.getElementById("tikla");
+  var navElementi=document.querySelector(".navbar");
+  var rowElementi=document.querySelector(".menu");
+  var hrefElementi=document.querySelectorAll("a");
+  var footerElementi=document.querySelector(".footer");
+  var imgResim=document.querySelectorAll("img");
+
+bodyElementi.classList.toggle("bg-dark");
+bodyElementi.classList.toggle("text-white");
+  buttonElementi.classList.toggle("bg-light");
+  buttonElementi.classList.toggle("text-light");
+  navElementi.classList.toggle("bg-dark");
+    navElementi.classList.toggle("text-white");
+  rowElementi.classList.toggle("bg-dark");
+  footerElementi.classList.toggle("bg-dark");
+  imgResim.classList.toggle("bg-dark");
+
+  if( bodyElementi.classList.contains("bg-dark")){
+    buttonElementi.innerText="Light Moda Geç!";
+  }else{
+        buttonElementi.innerText="Dark Moda Geç!";
+  }
+
+
+for (var i=0; i<hrefElementi.length; i++){
+  hrefElementi[i].classList.toggle("bg-dark");
+    hrefElementi[i].classList.toggle("text-light");
+}
+for (var i=0; i<imgResim.length; i++){
+
+  imgResim[i].classList.toggle("bg-dark");
+}
+
+
+}
+
+
+
+
+
+
+</script>
 
 
 
