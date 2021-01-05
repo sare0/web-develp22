@@ -2,127 +2,213 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <!-- bootstrap css -->
- <link rel="stylesheet" href="./css/bootstrap.min.css">
- <!-- main css -->
- <link rel="stylesheet" href="./css/main.css">
- <!-- google fonts -->
- <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
- <!-- font awesome -->
- <link rel="stylesheet" href="./css/style5.css">
- <title>OOP Course Form Project</title>
- <style>
- </style>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./css/style5.css">
+  <title>OOP Course Form Project</title>
+  <style>
+  </style>
 </head>
 
 <body>
- <div class="container">
-  <div class="row">
-   <div class="col-11 mx-auto text-center my-5">
-    <form class="my-5" id="customer-form">
-     <h3 class="text-capitalize">get a free course</h3>
-     <div class="feedback text-center  text-capitalize">
-      calculating.....
-     </div>
-     <!-- single input -->
-     <div class="input-group my-3">
-      <div class="input-group-prepend">
-       <span class="input-group-text"><i class="fas fa-user"></i></span>
-      </div>
-      <input type="text" onclick="cartAktif()" class="form-control text-capitalize name" id="name" placeholder="customer name">
-     </div>
-     <!-- end of single input -->
-     <!-- single input -->
-     <div class="input-group my-3">
-      <div class="input-group-prepend">
-       <span class="input-group-text"><i class="fas fa-book"></i></span>
-      </div>
-      <input type="text" onclick="cartAktif()" class="form-control text-capitalize course" placeholder="course" id="course">
-     </div>
-     <!-- end of single input -->
-     <!-- single input -->
-     <div class="input-group my-3">
-      <div class="input-group-prepend">
-       <span class="input-group-text"><i class="fas fa-user-circle"></i></span>
-      </div>
-      <input type="text" onclick="cartAktif()" class="form-control text-capitalize author" placeholder="author" id="author">
-     </div>
-     <!-- end of single input -->
-     <button id="submit" type="submit" class="btn btn-block submitBtn text-uppercase mt-4" disabled>submit</button>
-    </form>
+  <div class="container">
+    <div class="row">
+      <div class="col-11 mx-auto text-center my-5">
+        <form class="my-5" id="customer-form" onsubmit="return false">
+          <h3 class="text-capitalize">get a free course</h3>
+          <div class="feedback text-center  text-capitalize alert alert-warning w-50" role="alert">
+            Calculating.....
+          </div>
+          <!-- single input -->
+          <div class="input-group my-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+            </div>
+            <input type="text" class="form-control text-capitalize name" id="name" placeholder="customer name">
+          </div>
+          <!-- end of single input -->
+          <!-- single input -->
+          <div class="input-group my-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-book"></i></span>
+            </div>
+            <input type="text" class="form-control text-capitalize course" placeholder="course" id="course">
+          </div>
+          <!-- end of single input -->
+          <!-- single input -->
+          <div class="input-group my-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-user-circle"></i></span>
+            </div>
+            <input oninput="load()" type="text" class="form-control text-capitalize author" placeholder="author" id="author">
+          </div>
+          <!-- end of single input -->
+          <button type="submit" class="btn btn-block submitBtn text-uppercase mt-4 disabled" >submit</button>
+        </form>
 
-    <div class="loading">
-     <img src="./img/loading.gif" alt="">
+        <div class="loading justify-content-center">
+          <img src="resim\loading.gif" alt="">
+        </div>
+        <div class="row customer-list">
+
+          <!-- single customer -->
+          <div class="col-11 mx-auto col-md-6 col-lg-4 my-3">
+            <div class="card text-left">
+              <img src="resim\cust-0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <!-- customer name -->
+                <h6 class="text-capitalize "><span class="badge badge-warning mr-2">name :</span><span id="customer-name"> john anderson</span></h6>
+                <!-- end of customer name -->
+                <!-- customer name -->
+                <h6 class="text-capitalize my-3"><span class="badge badge-success mr-2">course :</span><span id="customer-course">
+                    css basics
+                  </span></h6>
+                <!-- end of customer name -->
+                <!-- customer name -->
+                <h6 class="text-capitalize"><span class="badge badge-danger mr-2">author :</span><span id="course-author"> john anderson</span></h6>
+                <!-- end of customer name -->
+              </div>
+            </div>
+
+            <!-- single customer -->
+
+
+
+          </div>
+
+        </div>
+      </div>
     </div>
-    <div class="row customer-list" id="customerr">
-
-     <!-- single customer -->
-     <div class="col-11 mx-auto col-md-6 col-lg-4 my-3">
-      <div class="card text-left">
-       <img src="./resim/cust-0.jpg" id="resim1" class="card-img-top" alt="">
-       <div class="card-body">
-        <!-- customer name -->
-        <h6 class="text-capitalize "><span class="badge badge-warning mr-2">name :</span><span id="customer-name"> john anderson</span></h6>
-        <!-- end of customer name -->
-        <!-- customer name -->
-        <h6 class="text-capitalize my-3"><span class="badge badge-success mr-2">course :</span><span id="customer-course">
-          css basics
-         </span></h6>
-        <!-- end of customer name -->
-        <!-- customer name -->
-        <h6 class="text-capitalize"><span class="badge badge-danger mr-2">author :</span><span id="course-author"> john anderson</span></h6>
-        <!-- end of customer name -->
-       </div>
-      </div>
-
-      <!-- single customer -->
-
-
-
-     </div>
-
-    </div>
-   </div>
   </div>
- </div>
+
+
+  <script type="text/javascript">
+  var cListElementi = document.querySelector(".customer-list");
+  var nameElementi = document.querySelector(".name");
+  var courseElementi = document.querySelector(".course");
+  var authorElementi = document.querySelector(".author");
+  var butonElementi = document.querySelector(".submitBtn");
+  var loadingElementi = document.querySelector(".loading");
+  var calculatingElement=document.querySelector(".feedback");
 
 
 
+  function load() {
+  butonElementi.classList.toggle("disabled");
+  butonElementi.onclick=function(){
+  loadingElementi.classList.toggle("d-flex");
+  calculatingElement.classList.toggle("d-flex");
+  setTimeout(cardAktif,3000);
+  };
+  }
 
- <!-- jquery -->
- <script src="./js/jquery-3.3.1.min.js"></script>
- <!-- bootstrap js -->
- <script src="./js/bootstrap.bundle.min.js"></script>
- <!-- script js -->
- <script src="./js/app.js"></script>
+  function cardAktif() {
 
+    loadingElementi.classList.toggle("d-flex");
+    calculatingElement.classList.toggle("d-flex");
 
-<script type="text/javascript">
-
-function cartAktif(){
-if(document.getElementById("name").value.length==0){
-document.getElementById("submit").disabled=true;}
-else if(document.getElementById("course").value.length==0){
-  document.getElementById("submit").disabled=true;}
-else if(document.getElementById("author").value.length==0){
-    document.getElementById("submit").disabled=true;}
-else
-{  document.getElementById("submit").disabled=false;
-
-}
-
-}
+    var div1 = document.createElement("div");
+    div1.classList.add("col-11","mx-auto","col-md-6","col-lg-4","my-3");
+    cListElementi.appendChild(div1)
 
 
+    var div2 = document.createElement("div");
+    div2.classList.add("card","text-left");
+    div1.appendChild(div2);
 
-</script>
+
+    var img = ["resim/1.jpg", "resim/2.jpg", "resim/3.jpg", "resim/4.jpg", "resim/5.jpg"];
+
+    function imgRandom(imgArr) {
+      return imgArr[Math.floor(Math.random() * imgArr.length)];
+    }
+
+    var srcAttribute = imgRandom(img);
+    var imgElementi = document.createElement("img");
+    imgElementi.classList.add("card-img-top");
+    imgElementi.setAttribute("src", srcAttribute);
+    div2.appendChild(imgElementi);
+
+
+    var div3 = document.createElement("div");
+    div3.classList.add("card-body");
+    div2.appendChild(div3);
+
+    var h6Name = document.createElement("h6");
+    h6Name.classList.add("text-capitalize");
+    div3.appendChild(h6Name);
+
+    var h6NameSpan1 = document.createElement("span");
+    h6NameSpan1.classList.add("badge","badge-warning","mr-2");
+    var nameYazi1 = document.createTextNode("name :");
+    h6NameSpan1.appendChild(nameYazi1);
+    h6Name.appendChild(h6NameSpan1);
+
+    var h6NameSpan2 = document.createElement("span");
+    h6NameSpan2.setAttribute("id", "course-name");
+    var nameYazi2 = document.createTextNode(nameElementi.value);
+    h6NameSpan2.appendChild(nameYazi2);
+    h6Name.appendChild(h6NameSpan2);
+
+    var h6Course = document.createElement("h6");
+    h6Course.classList.add("text-capitalize");
+    div3.appendChild(h6Course);
+
+    var h6CourseSpan1 = document.createElement("span");
+    h6CourseSpan1.classList.add("badge","badge-success","mr-2");
+    var courseYazi1 = document.createTextNode("course :");
+    h6CourseSpan1.appendChild(courseYazi1);
+    h6Course.appendChild(h6CourseSpan1);
+
+    var h6CourseSpan2 = document.createElement("span");
+    h6CourseSpan2.setAttribute("id", "customer-course");
+    var courseYazi2 = document.createTextNode(courseElementi.value);
+    h6CourseSpan2.appendChild(courseYazi2);
+    h6Course.appendChild(h6CourseSpan2);
+
+
+    var h6Author = document.createElement("h6");
+    h6Author.classList.add("text-capitalize");
+    div3.appendChild(h6Author);
+
+    var h6AuthorSpan1 = document.createElement("span");
+    h6AuthorSpan1.classList.add("badge","badge-danger","mr-2");
+    var authorYazi1 = document.createTextNode("author :");
+    h6AuthorSpan1.appendChild(authorYazi1);
+    h6Author.appendChild(h6AuthorSpan1);
+
+    var h6AuthorSpan2 = document.createElement("span");
+    h6AuthorSpan2.setAttribute("id", "course-author");
+    var authorYazi2 = document.createTextNode(authorElementi.value);
+    h6AuthorSpan2.appendChild(authorYazi2);
+    h6Author.appendChild(h6AuthorSpan2);
+
+
+     nameElementi.value="";
+     courseElementi.value="";
+     authorElementi.value="";
+     butonElementi.classList.toggle("disabled");
+  }
+
+  </script>
 
 
 
+    <!-- jquery -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="./js/app.js"></script>
 
 
 
