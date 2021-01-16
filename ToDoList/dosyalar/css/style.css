@@ -1,0 +1,62 @@
+body{
+  background-color: var(--light);
+}
+h1{
+  font-size:2.3rem;
+  color: #fff;
+  padding: 10px;
+}
+.kutu{
+  max-width: 400px;
+  margin: 40px auto; /* ortalıyor */
+  background-color: #fff;
+  border-radius: 5px;
+}
+.baslik{
+  background-color: var(--info);
+  text-align: center;
+}
+.veri{
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+}
+p{
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  color: var(--gray-dark);
+}
+input[type="checkbox"] {
+  margin: 20px;
+}
+input[type="text"] {
+  text-align: center;
+  margin:20px;
+  height: 60px;
+  border: none;   /* border olmasın */
+  font-size: 20px;
+  width: 300px;
+  background-color: transparent;   /*saydam arka plan*/
+}
+input[type="text"]:focus{        /* ona tıklanırsa demek = focus */
+  outline: none;                 /* cevresındekı cızgı sılınır */
+  box-shadow: inset 0 -3px 0 0  var(--info);
+}
+input:checked+p{       /* secili bir ınput sonra gelen p elementı bul */
+  text-decoration: line-through;    /*yazının ustu cızılı olsun */
+  text-decoration-color: var(--info);  /* uzerıne cızılen cızgı nın rengı */
+}
+button{
+  min-height: 50px;
+  min-width: 50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--info);
+  border-color: transparent;
+  color:#fff;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
